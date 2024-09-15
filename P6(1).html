@@ -1,0 +1,28 @@
+<!--This is just for a practice-->>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Press Event</title>
+</head>
+<body>
+    <!-- Message to display which key is pressed -->
+    <p id="message">Press any key!</p>
+    
+    <!-- JavaScript code -->
+    <script>
+        // Select the element where the message will be displayed
+        var message = document.getElementById('message');
+        
+        // Define the event handler function for key presses
+        function handleKeyPress(event) {
+            // Display the key pressed in the message paragraph
+            message.textContent = 'Key pressed: ' + event.key;
+        }
+        
+        // Add the event listener for the keydown event on the whole document
+        document.addEventListener('keydown', handleKeyPress);
+    </script>
+</body>
+</html>

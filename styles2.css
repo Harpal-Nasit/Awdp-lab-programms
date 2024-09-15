@@ -1,0 +1,59 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Type Selector */
+h1 {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Class Selector */
+.intro {
+    color: darkgreen;
+    font-style: italic;
+}
+
+.services-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.service-item {
+    padding: 5px;
+    background-color: #f4f4f4;
+}
+
+/* ID Selector */
+#about {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#services {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Descendant Selector */
+/* footer p {
+    color: #555;
+}
+
+/* Attribute Selector */
+/* a[href^="mailto:"] { */
+    /* color: red; */
+    /* text-decoration: none; */
+/* } */
+
+/* a[href^="mailto:"]:hover { */
+    /* text-decoration: underline; */
+/* } */
+
+/* Pseudo-class Selector */
+/* h2:hover { */
+    /* color: darkred; */
+/* } */ 

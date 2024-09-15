@@ -1,0 +1,30 @@
+/* styles1.css */
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.8;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+ul {
+    list-style-type: square;
+    margin: 0 0 10px 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 0 0 10px 20px;
+}

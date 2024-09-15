@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Example</title>
+    <link rel="stylesheet" href="styles2.css">
+
+    <style>
+        .center-heading {
+         color : rgb(151, 0, 0);
+         text-align: center; /* Center-aligns the text horizontally */ 
+         margin-top: 20px;   /* Optional: Adds space above the heading */ 
+        } 
+        footer {
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+            background-color: rgb(244, 240, 240);
+            padding: 0px;
+            border-top: 1px solid darkgray;
+            text-align:right;
+            width: calc(100% - 1px); /* Adjust width to account for padding */
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1 class="center-heading"><b>Programm:2</b></h1>
+        <!-- <p class="intro">Welcome to my webpage!</p> -->
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This section contains information about us.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul class="services-list">
+            <li class="service-item">Service 1</li>
+            <li class="service-item">Service 2</li>
+            <li class="service-item">Service 3</li>
+        </ul>
+    </section>
+    <footer>
+        <h3 style="color:rgb(0, 0, 0)">~Pal Nasit</h3>
+    </footer>
+
+</body>
+</html>
